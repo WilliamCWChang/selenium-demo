@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<script>
+  function myFunction() {
+    document.getElementById("button").innerHTML = "Login Successful";
+  }
+</script>
+<html>
+  <body>
+    <h1>Text, Passwd, Button</h1> username: <input type="text" id="username" value="12345678" />
+    <br> password: <input type="password" id="password" />
+    <br>
+    <button id="button" onclick="myFunction()">Login</button>
+    <br>
+    <h1>Checkbox</h1>
+    <div>
+      <input type="checkbox">checkbox 1 <br>
+      <input type="checkbox">checkbox 2 <br>
+      <input type="checkbox">checkbox 3 <br>
+      <input type="checkbox">checkbox 4 <br>
+    </div>
+    <h1>Radio</h1>
+    <div id=radio>
+      <input name="r" type="radio">radio 1 <br>
+      <input name="r" type="radio">radio 2 <br>
+      <input name="r" type="radio">radio 3 <br>
+      <input name="r" type="radio">radio 4 <br>
+    </div>
+    <h1>File upload</h1>
+    <input id="file" type="file">upload file1 <br>
+    <input id="file" type="file">upload file2 <br>
+    <h1>Select</h1>
+    <select name="pets">
+      <option value="">Animal</option>
+      <option value="dog">Dog</option>
+      <option value="cat" selected>Cat</option>
+      <option value="hamster">Hamster</option>
+      <option value="parrot">Parrot</option>
+      <option value="spider" disabled>Spider</option>
+      <option value="goldfish">Goldfish</option>
+    </select>
+  </body>
+</html>
